@@ -75,14 +75,6 @@
     ],
   ];
 
-  // header('Content-Type: application/json');
-  // echo json_encode($db);
-
-  // BONUS
-  // if(!empty($_GET['author'] && $_GET['author'] !=='all')){
-  //   var_dump('autore selezionato');
-  // }else{
-  //   var_dump('mostra tutto');
-  //   $data = $data;
-  // }
+  header('Content-Type: application/json charset="utf-8"');
+  echo json_encode($db);
 ?>

@@ -31,14 +31,24 @@ header img {
   margin-top: 10px;
 }
 
-.cds-container {
+main#main_content section {
+  width: 100%;
+}
+main#main_content section h2 {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 34px;
+  background: #2e3a46;
+  color: white;
+}
+main#main_content section .cds-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   padding: 100px 0;
 }
-.cds-container .cd {
+main#main_content section .cds-container .cd {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -50,19 +60,19 @@ header img {
   background: #2e3a46;
   text-align: center;
 }
-.cds-container .cd img {
+main#main_content section .cds-container .cd img {
   max-width: 100%;
 }
-.cds-container .cd h3 {
+main#main_content section .cds-container .cd h3 {
   margin: 20px 0;
   color: white;
   font-size: 22px;
   text-transform: uppercase;
 }
-.cds-container .cd span.author {
+main#main_content section .cds-container .cd span.author {
   color: grey;
   font-size: 20px;
 }
-.cds-container .cd span.year {
+main#main_content section .cds-container .cd span.year {
   color: grey;
 }

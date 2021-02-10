@@ -1,44 +1,47 @@
-.cds-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 100px 0;
-    .cd {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        flex-direction: column;
-        flex-basis: 200px;
-        padding: 20px;
-        margin: 10px 20px;
-        height: 360px;
-        background: rgb(46, 58, 70);
-        text-align: center;
-        img {
-            max-width: 100%;
-        }
-        h3 {
-            margin: 20px 0;
+main#main_content{
+    section{
+        width: 100%;
+        h2{
+            margin: 10px 0;
+            text-align: center;
+            font-size: 34px;
+            background: rgb(46, 58, 70);
             color: white;
-            font-size: 22px;
-            text-transform: uppercase;
         }
-        span.author {
-            color: grey;
-            font-size: 20px;
-        }
-        span.year {
-            color: grey;
+        .cds-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 100px 0;
+            .cd {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-direction: column;
+                flex-basis: 200px;
+                padding: 20px;
+                margin: 10px 20px;
+                height: 360px;
+                background: rgb(46, 58, 70);
+                text-align: center;
+                img {
+                    max-width: 100%;
+                }
+                h3 {
+                    margin: 20px 0;
+                    color: white;
+                    font-size: 22px;
+                    text-transform: uppercase;
+                }
+                span.author {
+                    color: grey;
+                    font-size: 20px;
+                }
+                span.year {
+                    color: grey;
+                }
+            }
         }
     }
 }
-  
-  
-  
-  
-  
-  
-  
-  
-  

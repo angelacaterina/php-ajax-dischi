@@ -7,7 +7,6 @@
   \*********************/
 /***/ (() => {
 
-// VUE
 var app = new Vue({
   el: '#app',
   data: {
@@ -19,9 +18,6 @@ var app = new Vue({
     axios.get('dist/php/db.php').then(function (resp) {
       console.log(resp.data.response);
       _this.albumList = resp.data.response;
-    })["catch"](function (error) {
-      _this.error = "Ops! C'è stato un problema";
-      console.log("ERROR", error);
     });
   }
 });

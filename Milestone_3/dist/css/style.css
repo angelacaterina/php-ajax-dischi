@@ -31,24 +31,14 @@ header img {
   margin-top: 10px;
 }
 
-main#main_content section {
-  width: 100%;
-}
-main#main_content section h2 {
-  margin: 10px 0;
-  text-align: center;
-  font-size: 34px;
-  background: #2e3a46;
-  color: white;
-}
-main#main_content section .cds-container {
+.cds-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 100px 0;
 }
-main#main_content section .cds-container .cd {
+.cds-container .cd {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -60,19 +50,19 @@ main#main_content section .cds-container .cd {
   background: #2e3a46;
   text-align: center;
 }
-main#main_content section .cds-container .cd img {
+.cds-container .cd img {
   max-width: 100%;
 }
-main#main_content section .cds-container .cd h3 {
+.cds-container .cd h3 {
   margin: 20px 0;
   color: white;
   font-size: 22px;
   text-transform: uppercase;
 }
-main#main_content section .cds-container .cd span.author {
+.cds-container .cd span.author {
   color: grey;
   font-size: 20px;
 }
-main#main_content section .cds-container .cd span.year {
+.cds-container .cd span.year {
   color: grey;
 }

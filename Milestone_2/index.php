@@ -24,21 +24,36 @@ Attraverso l’utilizzo di AJAX: al caricamento della pagina ajax chiederà attr
             </div><!-- /.container -->
             </header>
             <!-- /header -->
-            <div class="cds-container container">
-                <div class="cd" v-for="album in albumList">
-                    <img :src="album.poster" alt="">
-                     <h3>{{album.title}}</h3>
-                    <span class="author">{{album.author}}</span>
-                    <span class="year">{{album.year}}</span>
-                </div><!-- /.cd -->
-            </div><!-- /.cds-container container -->
+            <main id="main_content">
+                <section>
+                    <h2>VUE</h2>
+                    <div class="cds-container container">
+                        <div class="cd" v-for="album in albumList">
+                            <img :src="album.poster" alt="">
+                            <h3>{{album.title}}</h3>
+                            <span class="author">{{album.author}}</span>
+                            <span class="year">{{album.year}}</span>
+                        </div><!-- /.cd -->
+                    </div><!-- /.cds-container container -->
+                </section>
+
+                <section>
+                    <h2>JS</h2>
+                    <div class="cds-container container albums_api">
+
+                    </div><!-- /.cds-container container -->
+                </section>
+                
+            </main>
         </div>
         <!-- /#app -->
 
-        
+        <!-- Jq -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
         <!-- VUE  -->
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
         <!-- Js -->
-        <script src="dist/js/main.js" charset="utf-8"></script>
+        <script src="dist/js/main.js" charset="utf-8"></script> <!-- utilizzato Vue -->
+        <script src="dist/js/main2.js" charset="utf-8"></script> <!-- utilizzato Js -->
     </body>
 </html>

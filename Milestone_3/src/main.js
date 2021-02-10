@@ -1,4 +1,3 @@
-// VUE
 let app = new Vue({
     el: '#app',
     data: {
@@ -9,9 +8,6 @@ let app = new Vue({
       .then(resp => {
         console.log(resp.data.response);
         this.albumList = resp.data.response;
-      }).catch(error => {
-        this.error = "Ops! C'è stato un problema";
-        console.log("ERROR", error);
       })
     }
 })
